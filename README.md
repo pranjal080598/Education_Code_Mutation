@@ -1,4 +1,4 @@
-# About Education Code Mutation
+# Education Code Mutation
 
 The concept of writing a program as we know it is being replaced by AI systems that are trained rather than coded. With CoPilot and other AI coding assistance tools, the future of computing will involve AIs creating all programs, while humans have minimal supervisory roles. The new atomic unit of computing will be a sizable, previously trained and highly adaptive AI model. In the future, computer science will resemble education more than engineering, focusing on how to best teach the machines, rather than how to construct them. These AI systems will be running our infrastructure, aircraft and governing entire nations.
 
