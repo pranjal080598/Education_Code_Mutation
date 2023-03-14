@@ -12,7 +12,7 @@ The library is published at: https://pypi.org/project/edu-code-mutate/0.0.1/
 
 ## Steps to use the library
 
-[1] Run command on terminal: pip install -i https://test.pypi.org/simple/ edu-code-mutate==0.0.1
+[1] Run command on terminal: pip install edu-code-mutate==0.0.1
 
 [2] Write the following code in a python file:
 
@@ -27,3 +27,6 @@ print(code_versions)
 
 ** Please note that "my_code" can be any code that needs to be mutated and "my_api_key" needs to be updated to an actual api key from OpenAI **
 
+## License
+
+MIT License
