@@ -31,7 +31,7 @@ print(code_versions)
 
 |    CheckID    | Check description | Mutation0 | Mutation1 | Mutation 2 |
 | ------------- | ----------------- | ----------|-----------| -----------|            
-|StrLit         |
+|StrLit         |String literals    | Change the string literal to a different one, keeping the same length | | |
 |IntLit         |
 |SnglFor        |
 |NstdFor        |
