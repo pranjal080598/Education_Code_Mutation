@@ -32,21 +32,21 @@ print(code_versions)
 |    CheckID    | Check description | Mutation0 | Mutation1 | Mutation 2 |
 | ------------- | ----------------- | ----------|-----------| -----------|            
 |StrLit         |String literals    | Change the string literal to a different one, keeping the same length | | |
-|IntLit         |
-|SnglFor        |
-|NstdFor        |
-|RngStmt        |
-|SnglIf         |
-|NstdIf2        |
-|NstdIf3        |
-|ElifBlk        |
-|ElseBlk        |
-|CmpOper        |
-|EqlOper        |
-|IneqOper       |
-|BoolOper       |
-|ArithExpr      |
-|LenList        |
+|IntLit         |Integer literals| Change the integer literal to a different one | | |
+|SnglFor        |Single-level for loop| Tweak loop | | |
+|NstdFor        |Nested for loop (two levels)| Swap levels of the for loop | | |
+|RngStmt        |Range statement| Change first argument of range() | Change the second argument of range, or add it if it doesn't exist | Change the third argument of range, or add it if it doesn't exist |
+|SnglIf         |Single-level if statement| Change if statement with values in it | | |
+|NstdIf2        |Nested if statement (two levels)| Swap levels of if statement | | |
+|NstdIf3        |Nested if statement (three levels)| Swap levels of if statement | | |
+|ElifBlk        |Elif block| Replace elif with else | | |
+|ElseBlk        |Else block| Replace else with elif | | |
+|CmpOper        |Any comparison operator| Replace with a different comparison operator | | |
+|EqlOper        |Equality operator (==)| Add "not" | Replace == with != | |
+|IneqOper       |Inequality operator (!=)|Add "not" | Replace != with == | |
+|BoolOper       |Boolean operator (and, or)| Add "not" | Replace and with or, or with and | 
+|ArithExpr      |Arithmetic expression with parentheses (where order of operations is important)| Rearrange parentheses | Add extra parentheses | Remove some parentheses |
+|LenList        |len() function called on a list| Add 1 to len() | Subtract 1 from len() |
 |LenStr         |
 |IdxList        |
 |IdxStr         |
