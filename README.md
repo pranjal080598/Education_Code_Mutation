@@ -47,21 +47,21 @@ print(code_versions)
 |BoolOper       |Boolean operator (and, or)| Add "not" | Replace and with or, or with and | 
 |ArithExpr      |Arithmetic expression with parentheses (where order of operations is important)| Rearrange parentheses | Add extra parentheses | Remove some parentheses |
 |LenList        |len() function called on a list| Add 1 to len() | Subtract 1 from len() |
-|LenStr         |
-|IdxList        |
-|IdxStr         |
-|LstStrLIT      |
-|LstIntLit      |
-|TplStrLit      |
-|TplIntLit      |
-|LstLstStr      |
-|LstLstInt      |
-|WhileLoop      |
-|BinAritOp      |
-|UnrAritOp      |
-|IdxVar         |
-|IdxVarP1       |
-|IdxVarM1       |
+|LenStr         |len() function called on a string | Add 1 to len() | Subtract 1 from len() | |
+|IdxList        |Accessing list elements by index | Add 1 to the index | Subtract 1 from index | |
+|IdxStr         | Accessing string elements by index | Add 1 to the index | Subtract 1 from index| | 
+|LstStrLIT      |List of string literals | Change string literals to different string literals | Change number of string literals, keeping literals intact | |
+|LstIntLit      | List of integer literals | Change integer literals to different integer literals | Change number of integer literals, keeping literals intact | |
+|TplStrLit      |Tuple of string literals| Change string literals to different string literals | Change number of string literals, keeping literals intact | |
+|TplIntLit      | Tuple of integer literals | Change integer literals to different integer literals | Change number of integer literals, keeping literals intact | |
+|LstLstStr      |List of lists of string literals | Change string literals to different string literals | Change number of string literals, keeping literals intact | Change number of inner lists |
+|LstLstInt      | List of lists of integer literals | Change integer literals to different integer literals | Change number of integer literals, keeping literals intact | Change number of inner lists |
+|WhileLoop      | While loop | same as for loop condition | | |
+|BinAritOp      | Binary arithmetic operator | Change to a different arithmetic operator | | |
+|UnrAritOp      | Unary arithmetic operator (-) | Remove the unary operator | | |
+|IdxVar         | Integer variable as index| Add 1 | Subtract 1 | |
+|IdxVarP1       | Integer variable plus 1" as index | Add 1 | Subtract 1 | |
+|IdxVarM1       | Integer variable minus 1 as index| Add 1 | Subtract 1 | |
 
 ## License
 
