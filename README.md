@@ -27,6 +27,42 @@ print(code_versions)
 
 ** Please note that "my_code" can be any code that needs to be mutated and "my_api_key" needs to be updated to an actual api key from OpenAI **
 
+## Check and Mutations
+
+|    CheckID    | Check description | Mutation0 | Mutation1 | Mutation 2 |
+| ------------- | ----------------- | ----------|-----------| -----------|            
+|StrLit         |
+|IntLit         |
+|SnglFor        |
+|NstdFor        |
+|RngStmt        |
+|SnglIf         |
+|NstdIf2        |
+|NstdIf3        |
+|ElifBlk        |
+|ElseBlk        |
+|CmpOper        |
+|EqlOper        |
+|IneqOper       |
+|BoolOper       |
+|ArithExpr      |
+|LenList        |
+|LenStr         |
+|IdxList        |
+|IdxStr         |
+|LstStrLIT      |
+|LstIntLit      |
+|TplStrLit      |
+|TplIntLit      |
+|LstLstStr      |
+|LstLstInt      |
+|WhileLoop      |
+|BinAritOp      |
+|UnrAritOp      |
+|IdxVar         |
+|IdxVarP1       |
+|IdxVarM1       |
+
 ## License
 
 MIT License
