@@ -27,9 +27,9 @@ print(code_versions)
 
 ** Please note that "my_code" can be any code that needs to be mutated and "my_api_key" needs to be updated to an actual api key from OpenAI **
 
-## Check and Mutations
+## Parameters and Mutations
 
-|    CheckID    | Check description | Mutation0 | Mutation1 | Mutation 2 |
+|    ParameterID    | Parameter description | Mutation0 | Mutation1 | Mutation 2 |
 | ------------- | ----------------- | ----------|-----------| -----------|            
 |StrLit         |String literals    | Change the string literal to a different one, keeping the same length | | |
 |IntLit         |Integer literals| Change the integer literal to a different one | | |
